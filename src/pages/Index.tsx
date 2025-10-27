@@ -75,6 +75,14 @@ const Index = () => {
                 <Database className="w-5 h-5 mr-2" />
                 Bulk Dataset Analysis
               </Button>
+              <Button
+                onClick={() => navigate("/settings")}
+                variant="outline"
+                size="lg"
+              >
+                <Settings className="w-5 h-5 mr-2" />
+                Risk Settings
+              </Button>
             </div>
           </div>
         </div>
